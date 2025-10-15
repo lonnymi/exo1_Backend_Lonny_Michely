@@ -40,4 +40,4 @@ ToDoList/
 - **Bonnes pratiques Python** : code propre, documenté et structuré
 
 ## ✨ Auteur
-**Exercice1-Nom-Prénom**
+**Exercice1-Michely-Lonny**
