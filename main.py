@@ -24,16 +24,17 @@ def main():
         tasks = controller.list_tasks()
         view.show_tasks(tasks)
 
-    elif command == "done":
+    elif command == "delete":
         if len(sys.argv) < 3:
-            print("⚠️  Utilisation : python main.py done <id>")
+            print("⚠️  Utilisation : python main.py delete <id>")
             return
         try:
             task_id = int(sys.argv[2])
-            task = controller.mark_done(task_id)
-            view.show_done(task)
         except ValueError:
             print("⚠️  L’ID doit être un nombre.")
+            return
+        ok = controller.delete_task(task_id)
+        view.show_deleted(ok, task_id)
 
     else:
         print("Commande inconnue 😅")
