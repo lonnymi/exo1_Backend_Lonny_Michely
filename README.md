@@ -1,8 +1,8 @@
-# 📝 ToDoList CLI (Exercice 1)
+# ToDoList CLI (Exercice 1)
 
 Une mini API en ligne de commande pour gérer une liste de tâches, développée en **Python** en suivant le modèle **MVC** et les principes de la **POO**.
 
-## 🚀 Utilisation
+## Utilisation
 
 ### Ajouter une tâche
 ```bash
@@ -19,7 +19,7 @@ python main.py list
 python main.py done 1
 ```
 
-## 🧱 Structure du projet
+## Structure du projet
 ```
 ToDoList/
 ├── controllers/
@@ -33,7 +33,7 @@ ToDoList/
 └── README.md
 ```
 
-## 🧠 Concepts utilisés
+## Concepts utilisés
 - **MVC** : séparation claire entre modèle, vue et contrôleur
 - **POO** : utilisation d’une classe `Task`
 - **CLI** : interaction en ligne de commande
